@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+  <script type="text/javascript" src="components/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="components/materialize.js"></script>
+  <script type="text/javascript" src="components/materialize.min.js"></script>
+  <script type="text/javascript" src="components/acao.js"></script>
+
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+   <div class="container">
+    <a href="index.html" class="btn-floating"><i class="material-icons">← </i></a>
+    <br>
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="icon_telephone" type="date" class="validate" required>
+          <label for="icon_telephone" id="data">Dia:</label>
+        </div>
+        </div>
+     <form class="col s12">
+      <div class="row">
+        <div  class="input-field  col s12">
+          <input id="icon_prefix" type="time" class="validate" required>
+          <label for="icon_prefix" id="entrada" >Entrada:</label>
+        </div>
+        </div>
+        <div class="row">
+        <div  class="input-field  col s12">
+          <input id="icon_prefix" type="time" class="validate"required>
+          <label for="icon_prefix" id="saida" >Saída:</label>
+        </div>
+        </div>
+       <div class="row">
+        <div class="input-field col s12">
+          <input id="icon_telephone" type="tel" class="validate" required>
+          <label for="icon_telephone" id="propietario" >Propietário:</label>
+        </div>
+        </div>
+         <div class="row">
+          <div class="input-field col s12">
+          <input id="icon_telephone" type="tel" class="validate" required>
+          <label for="icon_telephone" id="marca">Marca:</label>
+        </div>
+        </div>
+         <div class="row">
+          <div class="input-field col s12">
+          <input id="icon_telephone" type="tel" class="validate" required>
+          <label for="icon_telephone" id="modelo">Modelo:</label>
+        </div>
+         </div>
+<div class="row">
+  <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected required>Tipo de Veículo</option>
+      <option value="" required>Carro</option>
+      <option value="" required>Moto</option>
+    </select>
+  </div>
+  </div>
+        <a class="waves-effect waves-light btn-large" id="calcular">calcular</a>
+        <br>
+      </div>
+     
+    </form>
+  </div>
+</body>
+</html>
