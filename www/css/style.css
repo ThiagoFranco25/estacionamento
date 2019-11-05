@@ -1,6 +1,5 @@
 #cadastrar{
   margin-left:25vw;
-  margin-top: 35%;
 }
 #buscar{
   margin-left:35vw;
@@ -16,4 +15,8 @@
 }
 body{
  background-image: linear-gradient(-90deg, grey);
+}
+#index{
+  margin-left: 22vw;
+  margin-top: 50%;
 }
