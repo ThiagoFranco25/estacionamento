@@ -1,0 +1,15 @@
+
+body{
+ background:linear-gradient(to right, #00416A, #292E49);
+ /* background-image: url("../css/car-2563506_1280-1024x683.jpg"); */
+
+}
+#c{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../css/seta.png");
+  background-size: 99%;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../css/abcd.ttf");
+}

@@ -1,22 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+
+#c{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../css/seta.png");
+  background-size: 99%;
+} 
 #cadastrar{
+
   margin-left:25vw;
+
+  margin-left:17vw;
+  margin-top: 35%;
+   background-color: rgba(0, 0, 0, 0);
+     font-family: myFirstFont;
+  font-size: 20px;
+  border-radius: 30px;
+
 }
+
 #buscar{
-  margin-left:35vw;
-  margin-top: 25%;
+  margin-left:30vw;
+  margin-top: 45%;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: myFirstFont;
+  font-size: 20px;
+  border-radius: 30px;
 }
 #calcular{
-  margin-left: 29vw;
+  margin-left: 16vw;
   margin-top: 10%;
+   background-color: rgba(0, 0, 0, 0);
+   font-family: myFirstFont;
+  font-size: 20px;
+  border-radius: 30px;
 }
 #usuario{
-  margin-left: 27vw;
+  margin-left: 14vw;
   margin-top: 20%;
+   background-color: rgba(0, 0, 0, 0);
+     font-family: myFirstFont;
+  font-size: 20px;
+  border-radius: 30px;
 }
 body{
- background-image: linear-gradient(-90deg, grey);
+ background:linear-gradient(to right, #00416A, #292E49);
+ /* background-image: url("../css/car-2563506_1280-1024x683.jpg"); */
+
 }
+
 #index{
   margin-left: 22vw;
   margin-top: 50%;
 }
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../css/abcd.ttf");
+}
+
